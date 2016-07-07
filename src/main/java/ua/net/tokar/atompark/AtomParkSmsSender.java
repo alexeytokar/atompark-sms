@@ -55,8 +55,6 @@ public class AtomParkSmsSender {
         try ( CloseableHttpResponse response = httpclient.execute( httpPost ) ) {
             HttpEntity entity = response.getEntity();
 
-            System.out.println( EntityUtils.toString( entity ) );
-
             EntityUtils.consume( entity );
 
         } catch ( IOException e ) {
