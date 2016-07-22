@@ -1,3 +1,5 @@
+[![Release](https://jitpack.io/v/alexeytokar/atompark-sms.svg)](https://jitpack.io/#alexeytokar/atompark-sms)
+
 # atompark-sms
 https://myatompark.com/ SMS client
 
@@ -12,4 +14,4 @@ AtomParkSmsSender sender = new AtomParkSmsSender(
 sender.sendMessage( "senderName", "some text", 380972223322 );
 ````
 
-Instructions how to add dependency to your project: https://jitpack.io/#alexeytokar/atompark-sms/0.1.0
+Instructions how to add dependency to your project: https://jitpack.io/#alexeytokar/atompark-sms
