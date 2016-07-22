@@ -11,7 +11,7 @@ AtomParkSmsSender sender = new AtomParkSmsSender(
 );
 
 //sender.getCampaignInfo( compain_id );
-sender.sendMessage( "senderName", "some text", 380972223322 );
+sender.sendMessage( "senderName", "some text", 380972223322L );
 ````
 
 Instructions how to add dependency to your project: https://jitpack.io/#alexeytokar/atompark-sms
